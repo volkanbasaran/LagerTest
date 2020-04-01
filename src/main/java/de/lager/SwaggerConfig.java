@@ -18,8 +18,8 @@ public class SwaggerConfig {
 	public Docket productApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("de.bestandspflege.controller"))
-				.paths(regex("/bestandspflege.*"))
+				.apis(RequestHandlerSelectors.basePackage("de.lager.controller"))
+				.paths(regex("/lager.*"))
 				.build();
 	}
 }
