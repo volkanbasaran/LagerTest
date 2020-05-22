@@ -26,7 +26,7 @@ public class LagerController {
 
 	@GetMapping(value = "/", produces = "application/json")
 	public String hallo() {
-		return "Hallo! Ich bin der Geraet!";
+		return "Hallo! Ich bin der Volkan :) !";
 	}
 
 	// Ausgabe aller Bestellungen
